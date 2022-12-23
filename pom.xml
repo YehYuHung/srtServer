@@ -30,16 +30,16 @@
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
 		<!-- jdbc -->
-		<dependency>
+		<!--<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-data-jdbc</artifactId>
 		</dependency>
-		<!-- mssql-jdbc -->
+		mssql-jdbc
 		<dependency>
 			<groupId>com.microsoft.sqlserver</groupId>
 			<artifactId>mssql-jdbc</artifactId>
 			<scope>runtime</scope>
-		</dependency>
+		</dependency> -->
 		<!-- lombok -->
 		<dependency>
 			<groupId>org.projectlombok</groupId>
