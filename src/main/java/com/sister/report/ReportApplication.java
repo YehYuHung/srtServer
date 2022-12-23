@@ -9,10 +9,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class ReportApplication {
 
 	public static void main(String[] args) {
-		//SpringApplication.run(ReportApplication.class, args);
-		SpringApplication app = new SpringApplication(ReportApplication.class);
-        app.setDefaultProperties(Collections.singletonMap("server.port", "8083"));
-        app.run(args);
+		SpringApplication.run(ReportApplication.class, args);
+//		SpringApplication app = new SpringApplication(ReportApplication.class);
+//        app.setDefaultProperties(Collections.singletonMap("server.port", "8083"));
+//        app.run(args);
 	}
 
 }
