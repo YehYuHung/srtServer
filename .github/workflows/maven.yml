@@ -40,7 +40,7 @@ jobs:
       uses: docker/login-action@v2.1.0
       with:
         # Server address of Docker registry. If not set then will default to Docker Hub
-        registry: z123z14759/srtserver
+        # registry: srtserver
         # Username used to log against the Docker registry
         username: ${{ secrets.DOCKER_USERNAME }}
         # Password or personal access token used to log against the Docker registry
