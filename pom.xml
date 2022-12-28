@@ -87,5 +87,6 @@
 				</configuration>
 			</plugin>
 		</plugins>
+		<finalName>srtserver</finalName>
 	</build>
 </project>
